@@ -58,10 +58,6 @@ public class Main
             }
         }
 
-//        for (City c : massive_of_cities) {
-//            c.show();
-//        }
-
         System.out.print("From city: ");
         String start_city = sc.nextLine();
         System.out.print("To city: ");
