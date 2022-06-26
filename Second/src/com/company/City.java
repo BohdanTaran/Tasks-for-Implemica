@@ -21,15 +21,6 @@ public class City
         this.imVisited = false;
     }
 
-    public void show()
-    {
-        System.out.println("----------------------------");
-        System.out.println("Name : " + name);
-        System.out.println("index : " + index);
-        System.out.println("cost : " + cost);
-        System.out.println("String : " + Arrays.toString(neighbours));
-    }
-
     //////////////////////////// Getters ////////////////////////////
 
     public int getIndex() { return this.index; }
