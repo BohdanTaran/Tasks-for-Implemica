@@ -130,7 +130,6 @@ public class Main
                 for (int neighbour = 0; neighbour < size_neighbours; neighbour++)
                 {
                     int edge_of_neighbour = 0;
-                    // Getting index from neighbour for check visited of neighbour from list
                     int index_of_neighbour  = 0;
                     boolean this_neighbour_was_visited = false;
                     try
